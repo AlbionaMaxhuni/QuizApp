@@ -75,7 +75,7 @@ export default function App() {
         </View>
 
         <TouchableOpacity style={styles.restartButton} onPress={restartQuiz}>
-          <Text style={styles.restartText}>Rifillo Quiz</Text>
+          <Text style={styles.restartText}>Rifillo kuizin</Text>
         </TouchableOpacity>
 
         <StatusBar style="auto" />
@@ -85,7 +85,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Quiz Edukativ</Text>
+      <Text style={styles.title}>Kuiz Edukativ</Text>
       <Text style={styles.progress}>
         Pyetja {currentQuestion + 1} nga {quizQuestions.length}
       </Text>
